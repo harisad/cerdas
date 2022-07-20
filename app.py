@@ -86,9 +86,11 @@ def index():
         chat_id,txt = parse_message(msg)
         if txt == "/help":
             tel_send_message(chat_id,"COMMAND BOT \n Arsyila \n siapa wanita tercantik? \n pasangan terbaik? \n haris nyebelin? \n kamu itu apa? \n /polling \n /cuek \n /gombal")
-        if txt == "Siapa namamu?":
-            namamu = ["Arsyila" , "Haris"]
-            tel_send_message(chat_id,random.choice(namamu))
+        if txt == "Tes":
+            g1 = tel_send_image(chat_id)
+            g2 = tel_send_poll(chat_id)
+            arg = [g1,g2]
+            random.choice(arg)
 
         if txt == "kamu itu apa?":
             robot = ["Aku bot dibuat Haris" , "Aku manusia sama sepertimu"]
