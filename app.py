@@ -5,7 +5,7 @@ import requests
 import random
 import json
 
-TOKEN = "5581992227:AAGKSw0YcIQlIW8Ug6h-ANO90rr7oLYfYcQ"
+TOKEN = "5324727239:AAH5ptASwVr2pUc4L8xI8gPcjBYGBBjYL-g"
 app = Flask(__name__)
 def parse_message(message):
     print("message-->",message)
