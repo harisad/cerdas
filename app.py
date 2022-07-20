@@ -98,10 +98,11 @@ def index():
                       "Meskipun kamu dari ujung lautan ngelempar senyum, tapi langsung masuk ke hati aku"]
 
             tel_send_message(chat_id, random.choice(gombal))
-      
-        return Response('ok', status=200)
+        
         else:
             tel_send_message(chat_id,"Maaf anda tidak jelas")
+        return Response('ok', status=200)
+
     else:
         return "<h1>Welcome!</h1>"
  
