@@ -6,7 +6,7 @@ import re
 from telegram.ext import Updater, CommandHandler
 import logging
 
-token = os.environ['TELEGRAM_TOKEN']
+token = os.environ['5324727239:AAH5ptASwVr2pUc4L8xI8gPcjBYGBBjYL-g']
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
 
